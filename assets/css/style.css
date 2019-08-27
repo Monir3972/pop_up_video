@@ -1,0 +1,88 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+   }
+a:hover { text-decoration: none }
+.video-area-bg {
+    background-image: url('../images/video.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60%;
+    width: 44%;
+    box-shadow: 0 0 25px #888;
+}
+.check-up li::before{
+    font-family: fontAwesome;
+    content:"\f00c";
+}
+.video-play-btn {
+    position: absolute;
+    top: 50%;
+    
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    line-height: 90px;
+    border-radius: 50%;
+    padding-left: 7px;
+    right: -50px;
+    margin-top: -50px;
+}
+ul.check-up {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 16px;
+    color: #666;
+}
+h3{
+    color: #333;
+
+}
+.check-up li{
+    padding-left: 38px;
+    position: relative;
+    padding-bottom: 10px;
+}
+.check-up li::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: green;
+}
+.video-area{
+    padding: 80px 0;
+}
